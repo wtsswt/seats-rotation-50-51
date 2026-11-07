@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# 默认忽略所有表格文件，只放行两个示例表。
+# 这样万一往仓库里放了真实名单，git 不会替你提交上去。
+*.xlsx
+*.xls
+*.csv
+!seats_51.xlsx
+!seats_50.xlsx
